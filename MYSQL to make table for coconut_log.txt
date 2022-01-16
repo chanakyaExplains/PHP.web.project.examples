@@ -1,0 +1,7 @@
+CREATE TABLE `coconut_log` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `Tree_number` int(11) NOT NULL,
+  `Comment` varchar(255) NOT NULL,
+  `Time` datetime NOT NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1	
